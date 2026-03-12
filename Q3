@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        double numeroDecimal = 10.75;
+        int numeroInteiro = (int)numeroDecimal;
+        Console.WriteLine("Valor original (double): " + numeroDecimal);
+        Console.WriteLine("Valor convertido (int): " + numeroInteiro);
+    }
+}
