@@ -1,0 +1,10 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        object obj = "123";
+        int x = int.Parse((string)obj);
+        Console.WriteLine(x);
+    }
+}
