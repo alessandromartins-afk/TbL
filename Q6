@@ -1,0 +1,11 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+        int[] numeros1 = {1, 2, 3};
+        int[] numeros2 = numeros1;
+        numeros2[0] = 100;
+        Console.WriteLine(numeros1[0]);
+    }
+}
